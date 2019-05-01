@@ -56,7 +56,6 @@
 }
 .input-field span{
     width: 180px;
-    justify-content: space-between;
 }
 .left .input-field .home input{
     width: 100px;
@@ -64,6 +63,7 @@
 }
 .website{
     transform: translate(26px);
+    font-weight: normal;
 }
 .website .input-field input{
     width: 115px;
@@ -89,3 +89,23 @@
     overflow: hidden;
     padding: 5px 10px;
  }
+ .footter{
+    background-color: #e3e3e3;
+    height: 36px;
+    border-top: 1px solid #c6dff5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .footter input{
+    margin: 0 2px;
+    color: white;
+    background-color: #91ba6f;
+    border: 1px solid #7aa359;
+    font-size: 10px;
+    font-weight: bold;
+    width: 85px;
+    height: 22px;
+}
+ 
