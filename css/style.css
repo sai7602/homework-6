@@ -5,17 +5,21 @@
     font-weight: bold;
     border: 1px solid #c1eb9f;
 }
+
 .header{
     background-color: #c1eb9f;
     height: 28px;
 }
+
 .header ul{
     display: flex;
     align-content: center;
 }
+
 .header ul li{
     padding: 5px 10px;
 }
+
 .header select{
     background-color: #c1eb9f;
     border: none;
@@ -23,55 +27,69 @@
     font-size: 12px;
     padding-left: 70px;
 }
+
 .main{
     display: flex;
     justify-content: space-between;
 }
+
 .left{
     width: 400px;
     padding: 10px 20px;
 }
+
 .right{
     padding: 10px 10px;
     width: 400px;
 }
+
 .left .input-field input, .left .input-field textarea{
     width: 200px;
 }
+
 .left .input-field select{
     width: 216px;
     transform: translate(5px);
 }
+
 .input-field{
     display: flex;
     justify-content: space-between;
     padding: 5px 20px;
 }
+
 .input-field textarea{
     resize: none;
 }
+
 .input-field-website .input-field{
     display: flex;
     flex-direction: column;
 }
+
 .input-field span{
     width: 180px;
 }
+
 .left .input-field .home input{
     width: 100px;
     transform: translate(-88px);
 }
+
 .website{
     transform: translate(26px);
     font-weight: normal;
 }
+
 .website .input-field input{
     width: 115px;
 }
+
 .website .input-field span{
     width: 80px;
     justify-content: space-between;
 }
+
 .answer{
     display: flex;
     flex-direction: column;
@@ -89,6 +107,7 @@
     overflow: hidden;
     padding: 5px 10px;
  }
+
  .footter{
     background-color: #e3e3e3;
     height: 36px;
@@ -98,6 +117,7 @@
     justify-content: center;
     
  }
+
  .footter input{
     margin: 0 2px;
     color: white;
@@ -107,5 +127,6 @@
     font-weight: bold;
     width: 85px;
     height: 22px;
+    letter-spacing: 0.15em;
 }
  
